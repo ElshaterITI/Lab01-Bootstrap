@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css"
+    />
+  </head>
+  <body class="bg-body-secondary">
+    <div class="p-5 container rounded bg-white w-50 mx-auto mt-5">
+      <form action="login.html">
+        <div class="container">
+          <!-- Row 1 -->
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="first-name" class="form-label">First Name</label>
+              <input
+                class="form-control"
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Elshater"
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="last-name" class="form-label">Last Name</label>
+              <input
+                class="form-control"
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Hassan"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input
+              class="form-control"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="example@email.com"
+            />
+          </div>
+          <div class="form-group mb-4">
+            <label for="phone">Phone Number</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="phone"
+              name="phone"
+              placeholder="e.g., 123-456-7890"
+            />
+          </div>
+          <div class="form-group mb-4">
+            <label for="dob">Date of Birth:</label>
+            <input type="date" class="form-control" id="dob" name="dob" />
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input
+                class="form-control"
+                type="password"
+                name="password"
+                id="password"
+                placeholder="Password"
+              />
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="confirm-password" class="form-label"
+                >Confirm Password</label
+              >
+              <input
+                class="form-control"
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                placeholder="Confirm Password"
+              />
+            </div>
+          </div>
+
+          <div
+            class="col-md-6 mb-3 d-flex justify-content-start align-items-start"
+          >
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault1"
+              />
+              <label class="form-check-label" for="flexRadioDefault1">
+                Male
+              </label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="flexRadioDefault"
+                id="flexRadioDefault2"
+                checked
+              />
+              <label class="form-check-label" for="flexRadioDefault2">
+                Female
+              </label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col text-center">
+              <button type="submit" class="btn btn-primary w-50">Login</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
